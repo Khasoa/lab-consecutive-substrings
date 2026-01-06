@@ -1,2 +1,11 @@
-Please add your pseudocode to this file
-And a written explanation of your solution
+## Solution Description:
+
+This algorithm generates all consecutive substrings of a given string. The solution treats the string as an array of characters and uses two nested loops to explore every possible starting and ending index combination that forms a valid consecutive substring.
+The outer loop selects the starting position of the substring, while the inner loop extends the substring one character at a time from that starting position. Each generated substring is added to an array in the order in which it appears.
+This approach ensures that all substrings consist of consecutive characters and are returned in sequence.
+
+## Time Complexity:
+The time complexity of this solution is O(n²), where n is the length of the input string. This is because the algorithm uses two nested loops that iterate over the string length.
+
+## Space Complexity:
+The space complexity is O(n²) since all generated substrings are stored in an array.
